@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form>
+    <label for="name">Nombre: </label>
+    <input type="text" name="name" id="name" required pattern="^[a-zA-Z]{3,}$"autocomplete="off">
+    <button>Enviar</button>
+</form>
+<form>
+  <label for="email">Email: </label>
+  <input type="email" name="email" id="email" required autocomplete="off">
+  <button>Enviar</button>
+</form>
+<form>
+  <label for="edad">Edad: </label>
+  <input type="text" name="edad" id="edad" requierd pattern="^(1[89]|[2-9][0-9]|1[01][0-9]|120)$" required autocomplete="off">
+  <button>Enviar</button>
+</form>
+
+  
+
+    
+  <script src="formulario.js"></script>  
+</body>
+</html>
